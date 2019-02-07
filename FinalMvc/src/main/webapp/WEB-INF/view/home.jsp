@@ -8,6 +8,13 @@
 </head>
 <body>
 <h1>Benvenuto</h1>
+
 <h1>${email}</h1>
+<h1>${password}</h1>
+<br>
+<br>
+<br>
+<br>
+ <a href="modify" placeholder="Modifica">Modifica</a>
 </body>
 </html>

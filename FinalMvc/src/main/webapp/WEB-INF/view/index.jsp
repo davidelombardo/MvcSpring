@@ -17,7 +17,9 @@
 <form:input path="password" />
 <input type="submit" />
 </form:form>
+Non sei registrato ? <a href="registration"	class="to_register">Registrati</a>
 ${emailErrata}
 ${passwordErrata}
+${delete}
 </body>
 </html>

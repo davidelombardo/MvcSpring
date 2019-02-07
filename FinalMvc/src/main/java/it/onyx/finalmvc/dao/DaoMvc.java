@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "cliente")
+@Table(name = "utente")
 public class DaoMvc {
 	@Column(name = "Nome")
 	private String nome;
@@ -28,7 +28,7 @@ public class DaoMvc {
 	private String password;
 	
 	
-	
+
 	public String getNome() {
 		return nome;
 	}
